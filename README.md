@@ -1,4 +1,4 @@
-# Initial page
+# Smallen API Documentation
 
 {% api-method method="post" host="https://smallen.xyz" path="/api/shorten" %}
 {% api-method-summary %}
