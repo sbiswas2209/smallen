@@ -1,19 +1,19 @@
-# Smallen API Documentation
+# Get Original URL
 
-{% api-method method="post" host="https://smallen.xyz" path="/api/shorten" %}
+{% api-method method="post" host="https://smallen.xyz" path="/api/getUrl" %}
 {% api-method-summary %}
 Get Cakes
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Generate shortened id for your URL
+This endpoint allows you to get free cakes.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
-{% api-method-parameter name="originalUrl" type="string" required=false %}
-URL to be shortened
+{% api-method-parameter name="id" type="string" required=true %}
+Shortened ID, For example in https://smallen.xyz/PQRST , PQRST is the id
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
