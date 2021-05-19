@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Smallen API Documentation](README.md)
+* [Shorten URL](README.md)
 

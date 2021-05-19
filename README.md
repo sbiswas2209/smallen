@@ -1,8 +1,8 @@
-# Smallen API Documentation
+# Shorten URL
 
 {% api-method method="post" host="https://smallen.xyz" path="/api/shorten" %}
 {% api-method-summary %}
-Get Cakes
+Shorten URL
 {% endapi-method-summary %}
 
 {% api-method-description %}
