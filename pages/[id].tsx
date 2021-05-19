@@ -13,7 +13,8 @@ const GetLink: NextPage<GetLinkProps> = () => {
     console.log("Params");
     console.log(params);
     const id = params.id;
-    if(id !== null) {
+    if(id !== undefined) {
+      console.log(id);
       if(id.length !== 5){
         setMessage('Seems like the link is not valid. Please check again!');
         return;
