@@ -14,6 +14,10 @@ const GetLink: NextPage<GetLinkProps> = () => {
     console.log(params);
     const id = params.id;
     if(id !== null) {
+      if(id.length !== 5){
+        setMessage('Seems like the link is not valid. Please check again!');
+        return;
+      }
       const response = await fetch("/api/getUrl", {
         method: "POST",
         headers: {
