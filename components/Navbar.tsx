@@ -28,7 +28,7 @@ const Navbar: React.FC<NavbarProps> = () => {
 
       <div className="sm:mb-0 self-center">
         <a
-          href="#"
+          href="https://smallen.gitbook.io/smallen/"
           className="text-md no-underline text-black hover:text-blue-dark ml-2 px-1"
         >
           Developer Guide
