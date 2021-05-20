@@ -5,7 +5,7 @@ export interface PricingProps {}
 
 const Pricing: React.FC<PricingProps> = () => {
   return (
-    <section className="bg-white ">
+    <section>
       <div className="container px-5 py-12 mx-auto lg:px-20">
         <div className="flex flex-col flex-wrap pb-6 mb-12 text-black ">
           <h1 className="mb-12 text-3xl font-extrabold text-black">Pricing</h1>

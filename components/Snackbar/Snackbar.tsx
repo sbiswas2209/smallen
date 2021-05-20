@@ -2,29 +2,7 @@
 import React, { PureComponent } from 'react';
 import styles from './Snackbar.module.css';
 
-// type MyProps = {
-//   // using `interface` is also ok
-//   // message: string;
-// };
-
-// type MyState = {
-//   isActive: boolean;
-//   // message: string;
-// };
-
-// export class Snackbar extends React.Component<MyProps, MyState> {
-//   message: string | undefined;
-
-//   constructor(props: MyProps) {
-//     super(props);
-
-//     this.state = {
-//       isActive: false,
-//       // message: ''
-//     };
-//   }
-
-export class Snackbar extends PureComponent<{}, {isActive:boolean}> {
+class Snackbar extends PureComponent<{}, {isActive:boolean}> {
   message = '';
 
   constructor(props: any) {
@@ -63,4 +41,4 @@ export class Snackbar extends PureComponent<{}, {isActive:boolean}> {
   }
 }
 
-// export default Snackbar;
+export default Snackbar;

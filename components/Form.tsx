@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
-import { Snackbar } from "./Snackbar/Snackbar";
+import Snackbar from "./Snackbar/Snackbar";
 import Spinner from "./Spinner";
 
 export interface FormProps {}
