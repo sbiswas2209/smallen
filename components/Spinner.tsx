@@ -12,7 +12,7 @@ const Spinner: React.FC<SpinnerProps> = () => {
         margin: 0 auto;
         align-center: true;
         padding: 40px;
-        background-color:white;
+        background-color:transparent;
     `;
     return ( <BarLoader css={styles} /> );
 }
