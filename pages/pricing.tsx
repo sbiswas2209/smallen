@@ -10,7 +10,7 @@ const Pricing: React.FC<PricingProps> = () => {
         <div className="flex flex-col flex-wrap pb-6 mb-12 text-black ">
           <h1 className="mb-12 text-3xl font-extrabold text-black">Pricing</h1>
           <p className="text-base leading-relaxed font-semibold">
-            Want a custom solution?
+            This product is free for all non commercial uses. If you want a custom implementation of the software, please contact us
           </p>
         </div>
         <div className="flex flex-wrap items-end justify-start w-full transition duration-500 ease-in-out transform bg-white border-2 border-gray-600 rounded-lg hover:border-white ">
@@ -51,7 +51,7 @@ const Pricing: React.FC<PricingProps> = () => {
               <h1 className="flex items-end mx-auto text-3xl font-black leading-none text-black ">
                 <span>Ask for a quote </span>
               </h1>
-              <a href="mailto:contact@sagnikbiswas.tech?subject=Smallen%20Enquiry">
+              <a href="mailto:contact@smallen.xyz?subject=Smallen%20Enquiry">
                 <button className="w-full px-4 py-2 mx-auto mt-3 text-blue-100 transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md items-centerw-full text-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-800 ">
                   Contact
                 </button>
