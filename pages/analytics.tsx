@@ -30,7 +30,7 @@ const Analytics: React.FC<AnalyticsProps> = () => {
       const data = await response.json();
       console.log(data);
       if (response.status === 200) {
-        setVisits(`Visits : ${data.visits}`);
+        setVisits(`Visits : ${data.visits/2}`);
       } else if (response.status === 404) {
         setVisits("Seems you strayed off a little!");
       } else {
