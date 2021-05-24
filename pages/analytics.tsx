@@ -78,8 +78,8 @@ const Analytics: React.FC<AnalyticsProps> = () => {
                 https://smallen.xyz/{id}
               </h1>
               <button
-                className="focus:outline-none hover:outline-black hover:border-dashed border-blue-700 border-2 bg-blue-700 hover:bg-transparent rounded-md lg:col-start-5 lg:col-span-1 m-4 p-4 group"
-                placeholder="Copy URL"
+                className="focus:outline-none hover:outline-black hover:border-dashed border-blue-700 border-2 bg-blue-700 hover:bg-transparent rounded-md lg:col-start-5 lg:col-span-1 m-4 p-4 group  duration-500"
+                placeholder="Refetch"
                 onClick={getAnalytics}
               >
                 <p className="group-hover:text-gray-900 text-white">Refetch Data</p>
@@ -98,6 +98,7 @@ const Analytics: React.FC<AnalyticsProps> = () => {
           <Spinner />
         </div>
       )}
+      <Snackbar ref={snackBarRef} />
     </div>
   );
 };
