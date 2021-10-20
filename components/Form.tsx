@@ -41,6 +41,7 @@ const Form: React.FC<FormProps> = () => {
             className="lg:grid grid-cols-6 gap-4 sm:grid-rows-3 mt-44 mb-44"
           >
             <input
+              required
               type="url"
               id="url"
               placeholder="Enter Link"
