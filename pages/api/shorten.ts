@@ -8,7 +8,13 @@ import URL from './models/url';
 export default async (req, res) => {
   try{
     const schema = Joi.object({
-        originalUrl: Joi.string().required(),
+      originalUrl: Joi.string()
+        .uri({ domain: { tlds: { allow: true } } })
+        .pattern(RegExp(`^https?://${req.headers.host}`), {
+          name: 'self reference',
+          invert: true,
+        })
+        .required()
     })
     const {value,error} = schema.validate(req.body);
     if(error){
